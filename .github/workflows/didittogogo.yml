@@ -23,5 +23,5 @@ jobs:
       run: cd android && ./gradlew assemblegameNoAssets
     - uses: actions/upload-artifact@v3
       with:
-        name: srb2
+        name: sonics
         path: android/app/build/outputs/apk/gameNoAssets/
